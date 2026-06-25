@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+local/
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Caches
+.pytest_cache/
+.coverage
+htmlcov/
+p39_cache/
+p24_cache/
+
+# Figures/Outputs generated locally
+figures_p39/p39_fractal_stress_figure.png
+figures_p39/p39_fractal_stress_results.json
+figures_p39/bt19_swarm_drones_results.png
+figures_p39/bt19_swarm_drones_results.json
+figures_p24/
+results/
+figures/
+figures_p9/
+audit.json
+solar_cycle.json
+nrlmsise_*.csv
+*.png
+*.json

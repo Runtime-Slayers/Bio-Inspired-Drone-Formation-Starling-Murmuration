@@ -1,0 +1,9 @@
+# Core
+numpy>=1.21
+scipy>=1.7
+matplotlib>=3.4
+
+# Development / testing
+pytest>=7.0
+pytest-cov>=4.0
+ruff>=0.4
