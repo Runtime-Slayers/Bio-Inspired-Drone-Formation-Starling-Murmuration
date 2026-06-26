@@ -1,0 +1,56 @@
+{
+  "parameters": {
+    "n_drones": 50,
+    "arena_size": [
+      1000.0,
+      1000.0
+    ],
+    "total_time": 120.0
+  },
+  "comparison": {
+    "standard_boids": {
+      "final_coverage": 0.7122,
+      "final_targets": 0,
+      "load_std": 0.11471228202940627,
+      "spi": 0.5243719294926484
+    },
+    "cognitive_boids": {
+      "final_coverage": 0.7254,
+      "final_targets": 0,
+      "load_std": 0.11653943483225075,
+      "spi": 0.5772151412919373
+    }
+  },
+  "fault_tolerance": [
+    {
+      "failure_frac": 0.0,
+      "coverage": 0.6556,
+      "targets": 1,
+      "alive": 50
+    },
+    {
+      "failure_frac": 0.1,
+      "coverage": 0.7385,
+      "targets": 0,
+      "alive": 45
+    },
+    {
+      "failure_frac": 0.2,
+      "coverage": 0.6776,
+      "targets": 1,
+      "alive": 40
+    },
+    {
+      "failure_frac": 0.3,
+      "coverage": 0.5912,
+      "targets": 0,
+      "alive": 35
+    },
+    {
+      "failure_frac": 0.5,
+      "coverage": 0.5492,
+      "targets": 0,
+      "alive": 25
+    }
+  ]
+}
